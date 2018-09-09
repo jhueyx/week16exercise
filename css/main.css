@@ -1,0 +1,52 @@
+#app {
+	display: block;
+	width: 100%;
+}
+
+ul {
+	background-color: black;
+}
+li {
+	margin: 10px;
+	display: inline-block;
+	color: white; 
+	text-transform: none; 
+}
+
+
+img {
+	max-height: 300px;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+
+}
+
+.content{
+	background-color: grey;
+	height: 500px;
+
+}
+
+
+/*14. In CSS: create ".slide-fade-enter" and ".slide-fade-leave-to" selectors. In these selectors, add opacity properties with values of 0, and a "transform" properter with a value of "translateX(10px)".
+*/
+
+.slide-fade-enter, 
+.slide-fade-leave-to{
+	opacity: 0;
+	transform: translate(100px);
+}
+
+
+/*15. In CSS: create ".slide-fade-enter-active" and ".slide-fade-leave-active" selectors and give them transition properties with values of "0.5s ease". Test out your transition animations.
+*/
+
+.slide-fade-enter-active, 
+.slide-fade-leave-to-inactive{
+	transition: 0.5s ease;
+}
